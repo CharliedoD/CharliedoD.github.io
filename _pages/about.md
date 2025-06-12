@@ -39,15 +39,8 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 
 # 🎖 Honors and Awards
 - *2024.12*  National Scholarship for Graduate Students, Ministry of Education of China. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
 - *2023.09 - 2025.06 (now)*, M.S. in Information and Communication Engineering, School of Computer Science and Technology, Beijing Jiaotong University.
 - *2019.09 - 2023.06*, B.S. in Intelligent Science and Technology (Science Experimental Class), School of Computer Science and Technology, China University of Petroleum (East China).
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
