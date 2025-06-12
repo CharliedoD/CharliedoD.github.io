@@ -29,9 +29,9 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 
 **Dong Chen**, Shuai Zheng, Muhao Xu, Zhenfeng zhu, Yao Zhao
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- no
-- nnn
+- Propose a spike-induced DGL framework: SiGNN, which integrates GNN and SNN for efficient representation learning on dynamic graph.
+- Novel spiking neuron model: BLIF.
+- Multi-time-resolution dynamic graph modeling.
 </div>
 </div>
 
