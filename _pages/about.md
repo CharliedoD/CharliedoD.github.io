@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I graduated from Chu Kochen Honors College, China University of Petroleum with a bachelor’s degree and from the Department of Computer Science and Technology. My research interest includes neural machine translation and computer vision. 
+I graduated from China University of Petroleum with a bachelor’s degree and from the Department of Computer Science and Technology. My research interest includes neural machine translation and computer vision. 
 
 
 # 🔥 News
