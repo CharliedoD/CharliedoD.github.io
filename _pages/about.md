@@ -43,7 +43,7 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 
 # 📖 Educations
 - *2023.09 - 2025.06 (now)*, M.S. in Information and Communication Engineering, School of Computer Science and Technology, Beijing Jiaotong University.
-- *2015.09 - 2019.06*, B.S. in Intelligent Science and Technology (Science Experimental Class), School of Computer Science and Technology, China University of Petroleum (East China).
+- *2019.09 - 2023.06*, B.S. in Intelligent Science and Technology (Science Experimental Class), School of Computer Science and Technology, China University of Petroleum (East China).
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
