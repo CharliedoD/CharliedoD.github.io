@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I graduated from China University of Petroleum with a bachelor’s degree and from the Department of Computer Science and Technology. My research interest includes neural machine translation and computer vision. 
+I am a master's student (2023) at the School of Computer Science and Technology, Beijing Jiaotong University. I received my bachelor's degree in Intelligent Science and Technology from China University of Petroleum. My research interests include graph machine learning and large language models, with a focus on designing efficient algorithms for dynamic graph learning in structured data and natural language processing.
 
 
 # 🔥 News
