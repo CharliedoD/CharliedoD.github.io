@@ -43,13 +43,12 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 **Dong Chen**, Shuai Zheng, Yeyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kunlun He
 
 
-- Propose a spike-induced DGL framework: SiGNN, which integrates GNN and SNN for efficient representation learning on dynamic graph.
-- Novel spiking neuron model: BLIF.
-- Multi-time-resolution dynamic graph modeling.
+- Pioneer the study of dynamic graph condensation and propose the first condensation framework for dynamic graph.
+- Novel spiking structure generation mechanism.
+- Tailored distribution matching approach that performs fine-grained spatiotemporal state alignment to guide the optimization of the condensed graph.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 - *2024.12*  National Scholarship for Graduate Students, Ministry of Education of China. 
