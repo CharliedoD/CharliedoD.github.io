@@ -45,7 +45,7 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 
 - Pioneer the study of dynamic graph condensation and propose the first condensation framework for dynamic graph.
 - Novel spiking structure generation mechanism.
-- Tailored distribution matching approach that performs fine-grained spatiotemporal state alignment to guide the optimization of the condensed graph.
+- Tailored distribution matching that performs fine-grained spatiotemporal alignment to guide the optimization of the condensed graph.
 </div>
 </div>
 
