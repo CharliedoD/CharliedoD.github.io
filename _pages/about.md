@@ -35,7 +35,7 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Undereview</div><img src='images/signn.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Undereview</div><img src='images/DyGC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Dynamic Graph Condensation](https://arxiv.org/abs/2506.13099)
