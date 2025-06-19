@@ -35,6 +35,20 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Undereview</div><img src='images/signn.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Dynamic Graph Condensation](https://arxiv.org/abs/2506.13099)
+
+**Dong Chen**, Shuai Zheng, Yeyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kunlun He
+
+
+- Propose a spike-induced DGL framework: SiGNN, which integrates GNN and SNN for efficient representation learning on dynamic graph.
+- Novel spiking neuron model: BLIF.
+- Multi-time-resolution dynamic graph modeling.
+</div>
+</div>
+
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
