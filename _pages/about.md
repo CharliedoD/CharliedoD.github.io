@@ -38,11 +38,9 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Under review</div><img src='images/DyGC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Towards Pre-trained Graph Condensation via Optimal Transport; NeurIPS 2025 (Under review)
-Yeyu Yan, **Dong Chen**, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kulun He; 
+[Dynamic Graph Condensation](https://www.arxiv.org/pdf/2506.13099)
 
-Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning
-Yeyu Yan, Shuai Zheng, **Dong Chen**, Zhenfeng Zhu, Yao Zhao, Kunlun He. 
+**Dong Chen**, Shuai Zheng, Yeyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kunlun He
 
 - Pioneer the study of dynamic graph condensation and propose the first condensation framework for dynamic graph.
 - Novel spiking structure generation mechanism.
@@ -50,8 +48,12 @@ Yeyu Yan, Shuai Zheng, **Dong Chen**, Zhenfeng Zhu, Yao Zhao, Kunlun He.
 </div>
 </div>
 
-**Dong Chen**, Shuai Zheng, Yeyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kunlun He
 
+Towards Pre-trained Graph Condensation via Optimal Transport; NeurIPS 2025 (Under review)
+Yeyu Yan, **Dong Chen**, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kulun He; 
+
+Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning
+Yeyu Yan, Shuai Zheng, **Dong Chen**, Zhenfeng Zhu, Yao Zhao, Kunlun He. 
 # 🎖 Honors and Awards
 - *2024.12*  National Scholarship for Graduate Students, Ministry of Education of China. 
 
