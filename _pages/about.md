@@ -41,6 +41,8 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 Towards Pre-trained Graph Condensation via Optimal Transport; NeurIPS 2025 (Under review)
 Yeyu Yan, **Dong Chen**, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kulun He; 
 
+Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning
+Yeyu Yan, Shuai Zheng, **Dong Chen**, Zhenfeng Zhu, Yao Zhao, Kunlun He. 
 
 - Pioneer the study of dynamic graph condensation and propose the first condensation framework for dynamic graph.
 - Novel spiking structure generation mechanism.
