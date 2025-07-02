@@ -60,6 +60,6 @@ Yeyu Yan, Shuai Zheng, **Dong Chen**, Zhenfeng Zhu, Yao Zhao, Kunlun He.
 - *2024.12*  National Scholarship for Graduate Students, Ministry of Education of China. 
 
 # 📖 Educations
-- *2023.09 - 2025.06 (now)*, M.S. in Information and Communication Engineering, School of Computer Science and Technology, Beijing Jiaotong University.
+- *2023.09 - now*, M.S. in Information and Communication Engineering, School of Computer Science and Technology, Beijing Jiaotong University.
 - *2019.09 - 2023.06*, B.S. in Intelligent Science and Technology (Science Experimental Class), School of Computer Science and Technology, China University of Petroleum (East China).
 
