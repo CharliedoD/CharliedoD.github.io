@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About
+
 I am a master's student (2023) at the School of Computer Science and Technology, Beijing Jiaotong University. I received my bachelor's degree in Intelligent Science and Technology from China University of Petroleum (East China). My research interests include graph machine learning and large language models, with a focus on designing efficient algorithms for dynamic graph learning and natural language processing.
 
 
