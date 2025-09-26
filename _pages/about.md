@@ -50,7 +50,7 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2025 Under review</div><img src='images/PreGC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='images/PreGC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 Towards Pre-trained Graph Condensation via Optimal Transport; NeurIPS 2025 (accepted) \\
