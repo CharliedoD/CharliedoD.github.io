@@ -37,7 +37,7 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Under review</div><img src='images/DyGC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2025 Under review</div><img src='images/DyGC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Dynamic Graph Condensation](https://www.arxiv.org/pdf/2506.13099)
@@ -50,8 +50,10 @@ I am a master's student (2023) at the School of Computer Science and Technology,
 </div>
 </div>
 
-
-Towards Pre-trained Graph Condensation via Optimal Transport; NeurIPS 2025 (Under review) \\
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2025 Under review</div><img src='images/PreGC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+Towards Pre-trained Graph Condensation via Optimal Transport; NeurIPS 2025 (accepted) \\
 Yeyu Yan, **Dong Chen**, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao, Kulun He; 
 
 Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning \\
