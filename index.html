@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doyle Chen</title>
+    <title>Dong Chen - Beijing Jiaotong University</title>
     <style>
         * {
             margin: 0;
@@ -12,211 +12,468 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .container {
-            background: white;
-            border-radius: 20px;
-            padding: 60px 40px;
-            max-width: 800px;
-            width: 100%;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-            text-align: center;
-        }
-
-        .avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            margin: 0 auto 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 60px;
-            color: white;
-            font-weight: bold;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            color: #1a202c;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            color: #718096;
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-        }
-
-        .bio {
-            color: #4a5568;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             line-height: 1.8;
-            margin-bottom: 40px;
-            font-size: 1.1rem;
+            color: #333;
+            background: #fff;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
 
-        .interests {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 40px;
-        }
-
-        .tag {
-            background: #edf2f7;
-            color: #4a5568;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
-        .links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .links a {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 12px 24px;
-            background: #1a202c;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: 500;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .links a:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .links a.github {
-            background: #24292e;
-        }
-
-        .links a.email {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-
-        .projects {
-            margin-top: 50px;
-            text-align: left;
-        }
-
-        .projects h2 {
-            font-size: 1.5rem;
-            color: #1a202c;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .project-card {
-            background: #f7fafc;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 15px;
-            transition: transform 0.2s;
-        }
-
-        .project-card:hover {
-            transform: translateX(5px);
-        }
-
-        .project-card h3 {
-            color: #2d3748;
-            margin-bottom: 8px;
-        }
-
-        .project-card h3 a {
-            color: #667eea;
+        a {
+            color: #0066cc;
             text-decoration: none;
         }
 
-        .project-card h3 a:hover {
+        a:hover {
             text-decoration: underline;
         }
 
-        .project-card p {
-            color: #718096;
+        /* Header */
+        .header {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 72px;
+            color: white;
+            font-family: Arial, sans-serif;
+            flex-shrink: 0;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .header-info {
+            flex: 1;
+        }
+
+        .header-info h1 {
+            font-size: 2.2rem;
+            font-weight: normal;
+            margin-bottom: 5px;
+            color: #1a1a1a;
+        }
+
+        .header-info .chinese-name {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .header-info .affiliation {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .header-info .contact {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .header-info .contact a {
+            margin-right: 15px;
+        }
+
+        /* Navigation */
+        .nav {
+            margin-bottom: 30px;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav a {
+            margin-right: 25px;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .nav a:hover {
+            color: #0066cc;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: normal;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #333;
+        }
+
+        /* About */
+        .about p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .interests {
+            margin-top: 15px;
+        }
+
+        .interests strong {
+            color: #1a1a1a;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        .education-item .degree {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .education-item .school {
+            color: #555;
+        }
+
+        .education-item .time {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Publications */
+        .pub-item {
+            margin-bottom: 25px;
+            padding-left: 20px;
+            border-left: 3px solid #eee;
+        }
+
+        .pub-item:hover {
+            border-left-color: #0066cc;
+        }
+
+        .pub-item .title {
+            font-weight: bold;
+            color: #1a1a1a;
+            font-size: 1.05rem;
+        }
+
+        .pub-item .authors {
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .pub-item .authors .me {
+            text-decoration: underline;
+            font-weight: 500;
+        }
+
+        .pub-item .venue {
+            color: #888;
+            font-style: italic;
+        }
+
+        .pub-item .links {
+            margin-top: 8px;
+        }
+
+        .pub-item .links a {
+            display: inline-block;
+            margin-right: 12px;
+            font-size: 0.9rem;
+            color: #0066cc;
+        }
+
+        .pub-item .links a::before {
+            content: "[";
+        }
+
+        .pub-item .links a::after {
+            content: "]";
+        }
+
+        /* Projects */
+        .project-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .project-item .title {
+            font-weight: bold;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .project-item .title a {
+            color: #1a1a1a;
+        }
+
+        .project-item .desc {
+            color: #555;
             font-size: 0.95rem;
         }
 
+        .project-item .links {
+            margin-top: 10px;
+        }
+
+        .project-item .links a {
+            margin-right: 15px;
+            font-size: 0.9rem;
+        }
+
+        /* Experience */
+        .exp-item {
+            margin-bottom: 20px;
+        }
+
+        .exp-item .role {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .exp-item .company {
+            color: #555;
+        }
+
+        .exp-item .time {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .exp-item .desc {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.95rem;
+        }
+
+        /* Skills */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #f0f0f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
         @media (max-width: 600px) {
-            .container {
-                padding: 40px 20px;
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
             }
 
-            h1 {
-                font-size: 2rem;
+            .header-info .contact a {
+                display: block;
+                margin: 5px 0;
             }
 
-            .avatar {
-                width: 120px;
-                height: 120px;
-                font-size: 48px;
+            .nav {
+                text-align: center;
+            }
+
+            .nav a {
+                display: inline-block;
+                margin: 5px 10px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="avatar">DC</div>
-        <h1>Doyle Chen</h1>
-        <p class="subtitle">Researcher / Developer</p>
-        
-        <p class="bio">
-            Welcome to my personal page! I'm passionate about machine learning, 
-            graph neural networks, and building innovative solutions.
+    <!-- Header -->
+    <header class="header">
+        <div class="avatar">
+            <!-- Replace with your photo: <img src="photo.jpg" alt="Dong Chen"> -->
+            DC
+        </div>
+        <div class="header-info">
+            <h1>Dong Chen</h1>
+            <div class="chinese-name">陈 东</div>
+            <div class="affiliation">
+                Master Student<br>
+                <a href="https://www.bjtu.edu.cn/" target="_blank">Beijing Jiaotong University</a><br>
+                School of Computer and Information Technology
+            </div>
+            <div class="contact">
+                <a href="mailto:dchen518@163.com">Email</a>
+                <a href="https://github.com/CharliedoD" target="_blank">GitHub</a>
+                <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Master's student at <a href="https://www.bjtu.edu.cn/" target="_blank">Beijing Jiaotong University</a>, 
+            advised by Prof. [Your Advisor's Name]. My research focuses on developing machine learning methods 
+            for graph-structured data and exploring the intersection of generative models with multimodal learning.
         </p>
-
+        <p>
+            My current research interests include:
+        </p>
         <div class="interests">
-            <span class="tag">Graph Neural Networks</span>
-            <span class="tag">Dynamic Graphs</span>
-            <span class="tag">Machine Learning</span>
-            <span class="tag">Deep Learning</span>
+            <ul>
+                <li><strong>Graph Machine Learning</strong>: Dynamic graph neural networks, graph condensation, and scalable graph learning algorithms.</li>
+                <li><strong>Generative Models</strong>: Diffusion models, generative approaches for graph data, and data synthesis.</li>
+                <li><strong>Multimodal Large Language Models</strong>: Vision-language models and multimodal representation learning.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="degree">M.S. in Computer Science</div>
+            <div class="school">Beijing Jiaotong University, Beijing, China</div>
+            <div class="time">2023 - Present (Expected 2026)</div>
+        </div>
+        <div class="education-item">
+            <div class="degree">B.S. in Computer Science</div>
+            <div class="school">[Your Undergraduate University], China</div>
+            <div class="time">2019 - 2023</div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+        <h2>Publications</h2>
+        
+        <div class="pub-item">
+            <div class="title">Evolution-Consistent Dynamic Graph Condensation</div>
+            <div class="authors">
+                <span class="me">Dong Chen</span>, [Co-authors]
+            </div>
+            <div class="venue">arXiv preprint, 2025</div>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2506.13099" target="_blank">Paper</a>
+                <a href="https://github.com/CharliedoD/DyGC" target="_blank">Code</a>
+            </div>
         </div>
 
-        <div class="links">
-            <a href="https://github.com/CharliedoD" class="github">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-                GitHub
-            </a>
-            <a href="mailto:dchen518@163.com" class="email">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                </svg>
-                Email
-            </a>
+        <!-- Add more publications here -->
+        <!--
+        <div class="pub-item">
+            <div class="title">Paper Title</div>
+            <div class="authors">
+                Author1, <span class="me">Dong Chen</span>, Author3
+            </div>
+            <div class="venue">Conference/Journal, Year</div>
+            <div class="links">
+                <a href="#">Paper</a>
+                <a href="#">Code</a>
+            </div>
+        </div>
+        -->
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project-item">
+            <div class="title">
+                <a href="https://github.com/CharliedoD/DyGC" target="_blank">DyGC: Dynamic Graph Condensation</a>
+            </div>
+            <div class="desc">
+                A framework for compressing large-scale dynamic graphs while preserving their temporal and structural properties. 
+                It learns a small synthetic graph that enables GNN models to achieve comparable performance to training on the full graph.
+            </div>
+            <div class="links">
+                <a href="https://github.com/CharliedoD/DyGC" target="_blank">GitHub</a>
+                <a href="https://arxiv.org/abs/2506.13099" target="_blank">Paper</a>
+            </div>
         </div>
 
-        <div class="projects">
-            <h2>Featured Projects</h2>
-            <div class="project-card">
-                <h3><a href="https://github.com/CharliedoD/DyGC">DyGC</a></h3>
-                <p>Evolution-Consistent Dynamic Graph Condensation - A framework for compressing large-scale dynamic graphs while preserving temporal and structural properties.</p>
+        <div class="project-item">
+            <div class="title">
+                <a href="https://github.com/CharliedoD/SiGNN" target="_blank">SiGNN</a>
             </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/CharliedoD/SiGNN">SiGNN</a></h3>
-                <p>Graph Neural Network research project for advanced graph learning tasks.</p>
+            <div class="desc">
+                Graph Neural Network research project for advanced graph learning tasks.
+            </div>
+            <div class="links">
+                <a href="https://github.com/CharliedoD/SiGNN" target="_blank">GitHub</a>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Experience (Optional) -->
+    <!--
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="exp-item">
+            <div class="role">Research Intern</div>
+            <div class="company">Company/Lab Name</div>
+            <div class="time">2024.06 - 2024.09</div>
+            <div class="desc">Description of your work...</div>
+        </div>
+    </section>
+    -->
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">PyTorch Geometric</span>
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">Graph Neural Networks</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Data Analysis</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Last updated: April 2026</p>
+        <p>&copy; 2025 Dong Chen. All rights reserved.</p>
+    </footer>
 </body>
 </html>
