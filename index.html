@@ -197,10 +197,28 @@
             margin-bottom: 25px;
             padding-left: 20px;
             border-left: 3px solid #eee;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
         }
 
         .pub-item:hover {
             border-left-color: #0066cc;
+        }
+
+        .pub-content {
+            flex: 1;
+        }
+
+        .pub-img {
+            width: 180px;
+            flex-shrink: 0;
+        }
+
+        .pub-img img {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #eee;
         }
 
         .pub-item .title {
@@ -442,28 +460,38 @@
         <p style="margin-bottom: 20px; color: #666;">* denotes equal contribution, † denotes corresponding author.</p>
         
         <div class="pub-item">
-            <div class="title">SiGNN: A Spike-induced Graph Neural Network for Dynamic Graph Representation Learning</div>
-            <div class="authors">
-                <span class="me">Dong Chen</span>, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao
+            <div class="pub-content">
+                <div class="title">SiGNN: A Spike-induced Graph Neural Network for Dynamic Graph Representation Learning</div>
+                <div class="authors">
+                    <span class="me">Dong Chen</span>, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao
+                </div>
+                <div class="venue">Pattern Recognition, 2025</div>
+                <div class="note">Efficient dynamic graph learning through SNN and GNN integration.</div>
+                <div class="links">
+                    <a href="https://doi.org/10.1016/j.patcog.2024.111026" target="_blank">Paper</a>
+                    <a href="https://github.com/CharliedoD/SiGNN" target="_blank">Code</a>
+                </div>
             </div>
-            <div class="venue">Pattern Recognition, 2025</div>
-            <div class="note">Efficient dynamic graph learning through SNN and GNN integration.</div>
-            <div class="links">
-                <a href="https://doi.org/10.1016/j.patcog.2024.111026" target="_blank">Paper</a>
-                <a href="https://github.com/CharliedoD/SiGNN" target="_blank">Code</a>
+            <div class="pub-img">
+                <img src="fw-SiGNN.png" alt="SiGNN Framework">
             </div>
         </div>
 
         <div class="pub-item">
-            <div class="title">Evolution-Consistent Dynamic Graph Condensation</div>
-            <div class="authors">
-                <span class="me">Dong Chen</span>, Shuai Zheng, Yuanyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao
+            <div class="pub-content">
+                <div class="title">Evolution-Consistent Dynamic Graph Condensation</div>
+                <div class="authors">
+                    <span class="me">Dong Chen</span>, Shuai Zheng, Yuanyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao
+                </div>
+                <div class="venue">arXiv:2506.13099</div>
+                <div class="note">The first data condensation framework tailored for dynamic graphs.</div>
+                <div class="links">
+                    <a href="https://arxiv.org/abs/2506.13099" target="_blank">Paper</a>
+                    <a href="https://github.com/CharliedoD/DyGC" target="_blank">Code</a>
+                </div>
             </div>
-            <div class="venue">arXiv:2506.13099</div>
-            <div class="note">The first data condensation framework tailored for dynamic graphs.</div>
-            <div class="links">
-                <a href="https://arxiv.org/abs/2506.13099" target="_blank">Paper</a>
-                <a href="https://github.com/CharliedoD/DyGC" target="_blank">Code</a>
+            <div class="pub-img">
+                <img src="fw-DyGC.png" alt="DyGC Framework">
             </div>
         </div>
 
