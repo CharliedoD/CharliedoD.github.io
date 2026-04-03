@@ -78,9 +78,10 @@
         }
 
         .header-info .affiliation {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             color: #555;
             margin-bottom: 15px;
+            line-height: 1.6;
         }
 
         .header-info .contact {
@@ -137,6 +138,35 @@
             color: #1a1a1a;
         }
 
+        .interests ul {
+            margin-left: 20px;
+        }
+
+        .interests li {
+            margin-bottom: 8px;
+        }
+
+        /* News */
+        .news-list {
+            list-style: none;
+        }
+
+        .news-list li {
+            margin-bottom: 10px;
+            padding-left: 0;
+        }
+
+        .news-list .date {
+            color: #888;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .news-list .highlight {
+            color: #c41e3a;
+            font-weight: bold;
+        }
+
         /* Education */
         .education-item {
             margin-bottom: 20px;
@@ -154,6 +184,12 @@
         .education-item .time {
             color: #888;
             font-size: 0.9rem;
+        }
+
+        .education-item .advisor {
+            color: #666;
+            font-size: 0.95rem;
+            margin-top: 3px;
         }
 
         /* Publications */
@@ -188,6 +224,17 @@
             font-style: italic;
         }
 
+        .pub-item .venue .status {
+            color: #c41e3a;
+            font-style: normal;
+        }
+
+        .pub-item .note {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
         .pub-item .links {
             margin-top: 8px;
         }
@@ -218,12 +265,18 @@
         .project-item .title {
             font-weight: bold;
             color: #1a1a1a;
-            font-size: 1.1rem;
-            margin-bottom: 8px;
+            font-size: 1.05rem;
+            margin-bottom: 5px;
         }
 
         .project-item .title a {
             color: #1a1a1a;
+        }
+
+        .project-item .time {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
         }
 
         .project-item .desc {
@@ -243,6 +296,8 @@
         /* Experience */
         .exp-item {
             margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid #eee;
         }
 
         .exp-item .role {
@@ -265,19 +320,24 @@
             font-size: 0.95rem;
         }
 
-        /* Skills */
-        .skills-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+        /* Awards */
+        .award-item {
+            margin-bottom: 12px;
         }
 
-        .skill-tag {
-            background: #f0f0f0;
-            padding: 5px 15px;
-            border-radius: 20px;
+        .award-item .name {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+
+        .award-item .time {
+            color: #888;
             font-size: 0.9rem;
-            color: #555;
+        }
+
+        .award-item .desc {
+            color: #666;
+            font-size: 0.9rem;
         }
 
         /* Footer */
@@ -326,11 +386,11 @@
             <div class="chinese-name">陈 东</div>
             <div class="affiliation">
                 Master Student<br>
-                <a href="https://www.bjtu.edu.cn/" target="_blank">Beijing Jiaotong University</a><br>
-                School of Computer and Information Technology
+                School of Computer and Information Technology<br>
+                <a href="https://www.bjtu.edu.cn/" target="_blank">Beijing Jiaotong University</a>
             </div>
             <div class="contact">
-                <a href="mailto:dchen518@163.com">Email</a>
+                <a href="mailto:dchen2001@bjtu.edu.cn">Email</a>
                 <a href="https://github.com/CharliedoD" target="_blank">GitHub</a>
                 <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
             </div>
@@ -340,76 +400,129 @@
     <!-- Navigation -->
     <nav class="nav">
         <a href="#about">About</a>
-        <a href="#education">Education</a>
+        <a href="#news">News</a>
         <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
     </nav>
 
     <!-- About -->
     <section id="about" class="about">
         <h2>About Me</h2>
         <p>
-            I am a Master's student at <a href="https://www.bjtu.edu.cn/" target="_blank">Beijing Jiaotong University</a>, 
-            advised by Prof. [Your Advisor's Name]. My research focuses on developing machine learning methods 
-            for graph-structured data and exploring the intersection of generative models with multimodal learning.
+            I am a second-year Master's student in Information and Communication Engineering at 
+            <a href="https://www.bjtu.edu.cn/" target="_blank">Beijing Jiaotong University</a>, 
+            advised by <a href="#">Prof. Zhenfeng Zhu</a>. 
+            Before that, I received my B.S. degree in Intelligence Science and Technology from 
+            <a href="https://www.upc.edu.cn/" target="_blank">China University of Petroleum (East China)</a> in 2023.
         </p>
         <p>
-            My current research interests include:
+            My research interests lie at the intersection of graph learning, generative models, and multimodal systems:
         </p>
         <div class="interests">
             <ul>
-                <li><strong>Graph Machine Learning</strong>: Dynamic graph neural networks, graph condensation, and scalable graph learning algorithms.</li>
-                <li><strong>Generative Models</strong>: Diffusion models, generative approaches for graph data, and data synthesis.</li>
+                <li><strong>Graph Machine Learning</strong>: Dynamic graph neural networks, graph condensation, and efficient graph learning.</li>
+                <li><strong>Generative Models</strong>: Generative retrieval, data synthesis, and diffusion models for structured data.</li>
                 <li><strong>Multimodal Large Language Models</strong>: Vision-language models and multimodal representation learning.</li>
             </ul>
         </div>
+    </section>
+
+    <!-- News -->
+    <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+            <li><span class="date">2024.12</span> Honored to receive the <span class="highlight">China National Scholarship</span>!</li>
+            <li><span class="date">2025</span> One paper accepted by <strong>NeurIPS 2025</strong>.</li>
+            <li><span class="date">2025</span> One paper accepted by <strong>Pattern Recognition</strong>.</li>
+        </ul>
     </section>
 
     <!-- Education -->
     <section id="education">
         <h2>Education</h2>
         <div class="education-item">
-            <div class="degree">M.S. in Computer Science</div>
+            <div class="degree">M.S. in Information and Communication Engineering</div>
             <div class="school">Beijing Jiaotong University, Beijing, China</div>
-            <div class="time">2023 - Present (Expected 2026)</div>
+            <div class="time">Sep. 2023 - Present</div>
+            <div class="advisor">Advisor: Prof. Zhenfeng Zhu &nbsp;|&nbsp; GPA: 3.82/4.0</div>
         </div>
         <div class="education-item">
-            <div class="degree">B.S. in Computer Science</div>
-            <div class="school">[Your Undergraduate University], China</div>
-            <div class="time">2019 - 2023</div>
+            <div class="degree">B.S. in Intelligence Science and Technology</div>
+            <div class="school">China University of Petroleum (East China), Qingdao, China</div>
+            <div class="time">Sep. 2019 - Jul. 2023</div>
+            <div class="advisor">GPA: 3.65/4.0</div>
         </div>
     </section>
 
     <!-- Publications -->
     <section id="publications">
         <h2>Publications</h2>
+        <p style="margin-bottom: 20px; color: #666;">* denotes equal contribution, † denotes corresponding author.</p>
         
         <div class="pub-item">
-            <div class="title">Evolution-Consistent Dynamic Graph Condensation</div>
+            <div class="title">SiGNN: A Spike-induced Graph Neural Network for Dynamic Graph Representation Learning</div>
             <div class="authors">
-                <span class="me">Dong Chen</span>, [Co-authors]
+                <span class="me">Dong Chen</span>, Shuai Zheng, Muhao Xu, Zhenfeng Zhu, Yao Zhao
             </div>
-            <div class="venue">arXiv preprint, 2025</div>
+            <div class="venue">Pattern Recognition, 2025</div>
+            <div class="note">Efficient dynamic graph learning through SNN and GNN integration.</div>
+            <div class="links">
+                <a href="https://github.com/CharliedoD/SiGNN" target="_blank">Code</a>
+            </div>
+        </div>
+
+        <div class="pub-item">
+            <div class="title">From Static to Dynamic: Evolution-Consistent Dynamic Graph Condensation</div>
+            <div class="authors">
+                <span class="me">Dong Chen</span>, Shuai Zheng, Yuanyu Yan, Muhao Xu, Zhenfeng Zhu, Yao Zhao
+            </div>
+            <div class="venue">IEEE Transactions on Knowledge and Data Engineering (TKDE), <span class="status">Under Review</span></div>
+            <div class="note">The first data condensation framework tailored for dynamic graphs.</div>
             <div class="links">
                 <a href="https://arxiv.org/abs/2506.13099" target="_blank">Paper</a>
                 <a href="https://github.com/CharliedoD/DyGC" target="_blank">Code</a>
             </div>
         </div>
 
-        <!-- Add more publications here -->
-        <!--
         <div class="pub-item">
-            <div class="title">Paper Title</div>
+            <div class="title">Revisiting General Map Search via Generative Point-of-Interest Retrieval</div>
             <div class="authors">
-                Author1, <span class="me">Dong Chen</span>, Author3
+                <span class="me">Dong Chen</span>, Shuai Zheng, Hao Shao, Muhao Xu, Haoyang Wu, Zhenfeng Zhu, Ruixuan Li
             </div>
-            <div class="venue">Conference/Journal, Year</div>
-            <div class="links">
-                <a href="#">Paper</a>
-                <a href="#">Code</a>
-            </div>
+            <div class="venue">KDD 2026, <span class="status">Under Review</span></div>
+            <div class="note">The first generative POI retrieval framework for general map search.</div>
         </div>
-        -->
+
+        <div class="pub-item">
+            <div class="title">Towards Pre-trained Graph Condensation via Optimal Transport</div>
+            <div class="authors">
+                Yuanyu Yan, Shuai Zheng, Muhao Xu, <span class="me">Dong Chen</span>, Xiaojun Zhu, Zhenfeng Zhu, Yao Zhao, Kun He
+            </div>
+            <div class="venue">NeurIPS 2025</div>
+            <div class="note">Generalizing graph condensation to pre-training and fine-tuning pipeline.</div>
+        </div>
+
+        <div class="pub-item">
+            <div class="title">Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning</div>
+            <div class="authors">
+                Yuanyu Yan, Shuai Zheng, <span class="me">Dong Chen</span>, Zhenfeng Zhu, Yao Zhao, Kun He
+            </div>
+            <div class="venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), <span class="status">Major Revision</span></div>
+            <div class="note">Revisiting federated graph learning as semantic condensed graph alignment.</div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        
+        <div class="exp-item">
+            <div class="role">Research Intern</div>
+            <div class="company">Tencent — Map Platform Department, Beijing</div>
+            <div class="time">Aug. 2025 - Feb. 2026</div>
+            <div class="desc">Working on generative map POI recommendation and search systems.</div>
+        </div>
     </section>
 
     <!-- Projects -->
@@ -417,56 +530,32 @@
         <h2>Projects</h2>
         
         <div class="project-item">
-            <div class="title">
-                <a href="https://github.com/CharliedoD/DyGC" target="_blank">DyGC: Dynamic Graph Condensation</a>
-            </div>
-            <div class="desc">
-                A framework for compressing large-scale dynamic graphs while preserving their temporal and structural properties. 
-                It learns a small synthetic graph that enables GNN models to achieve comparable performance to training on the full graph.
-            </div>
-            <div class="links">
-                <a href="https://github.com/CharliedoD/DyGC" target="_blank">GitHub</a>
-                <a href="https://arxiv.org/abs/2506.13099" target="_blank">Paper</a>
-            </div>
+            <div class="title">Holistic GraphRAG for Medical Question-Answering</div>
+            <div class="time">Dec. 2024 - May 2025 @ Beijing Jiaotong University</div>
+            <div class="desc">Developing graph-based retrieval-augmented generation systems for medical QA tasks.</div>
         </div>
 
         <div class="project-item">
-            <div class="title">
-                <a href="https://github.com/CharliedoD/SiGNN" target="_blank">SiGNN</a>
-            </div>
-            <div class="desc">
-                Graph Neural Network research project for advanced graph learning tasks.
-            </div>
-            <div class="links">
-                <a href="https://github.com/CharliedoD/SiGNN" target="_blank">GitHub</a>
-            </div>
+            <div class="title">Cross-Task Synergy for Flexible Multimodal Healthcare Prediction</div>
+            <div class="time">Dec. 2023 - Jul. 2024 @ Beijing Jiaotong University</div>
+            <div class="desc">Research on multimodal learning for healthcare prediction with cross-task knowledge sharing.</div>
         </div>
     </section>
 
-    <!-- Experience (Optional) -->
-    <!--
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="exp-item">
-            <div class="role">Research Intern</div>
-            <div class="company">Company/Lab Name</div>
-            <div class="time">2024.06 - 2024.09</div>
-            <div class="desc">Description of your work...</div>
+    <!-- Awards -->
+    <section id="awards">
+        <h2>Awards & Honors</h2>
+        
+        <div class="award-item">
+            <span class="name">China National Scholarship</span>
+            <span class="time">Dec. 2024</span>
+            <div class="desc">Top academic honor awarded by the Chinese Ministry of Education.</div>
         </div>
-    </section>
-    -->
-
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">PyTorch</span>
-            <span class="skill-tag">PyTorch Geometric</span>
-            <span class="skill-tag">Deep Learning</span>
-            <span class="skill-tag">Graph Neural Networks</span>
-            <span class="skill-tag">Machine Learning</span>
-            <span class="skill-tag">Data Analysis</span>
+        
+        <div class="award-item">
+            <span class="name">First Prize Scholarship</span>
+            <span class="time">2020, 2021</span>
+            <div class="desc">Recognition for top 10% of students at China University of Petroleum (East China).</div>
         </div>
     </section>
 
